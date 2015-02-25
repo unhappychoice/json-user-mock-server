@@ -1,0 +1,7 @@
+-
+  request:
+    url: /
+    method: GET
+  response:
+    status: 200
+    body: '{ result: "ok" }'
