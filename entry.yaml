@@ -5,3 +5,19 @@
   response:
     status: 200
     body: '{ result: "ok" }'
+
+-
+  request:
+    url: /users
+    method: GET
+  response:
+    status: 200
+    file: users/index.json
+
+-
+  request:
+    url: /users/:id
+    method: GET
+  response:
+    status: 200
+    file: users/show.json
